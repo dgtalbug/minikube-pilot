@@ -1,0 +1,67 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pypirc
+*.egg-info/
+*.egg
+*.env
+.env
+*.env.*
+*.DS_Store
+
+# 🧪 Testing & coverage
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# 🔥 Virtualenvs
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+# VS Code-style:
+.vscode/
+
+# 🐳 Docker
+Dockerfile~
+docker-compose.yml~
+docker-compose.override.yml
+*.tar
+*.log
+.dockerignore
+
+# ⎈ Kubernetes
+*.yaml~
+*.yml~
+*.kube/
+kubeconfig
+.kube/
+
+# 🐘 Databases
+*.sqlite3
+*.db
+
+# 📦 Package files
+dist/
+build/
+*.whl
+*.tar.gz
+
+# 🔧 Editor/IDE
+.idea/
+*.sublime*
+*.iml
+
+# 💥 Mac/Windows/OS junk
+Thumbs.db
+ehthumbs.db
+Icon?
+.DS_Store
